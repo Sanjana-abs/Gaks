@@ -1,0 +1,83 @@
+/* App.css */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fdfaf4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .meal-plans {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .second {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .third {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .meal-plan-card {
+    background-color: #3e5747;
+    color: #f8f8f8;
+    border-radius: 12px;
+    width: 250px;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .meal-plan-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 3rem;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .currency {
+    font-size: 1rem;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+  }
+  
+  .frequency {
+    font-size: 0.9rem;
+    color: #dcdcdc;
+  }
+  
+  .select-button {
+    background-color: #f8f8f8;
+    color: #3e5747;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .select-button:hover {
+    background-color: #e8e8e8;
+  }
+  

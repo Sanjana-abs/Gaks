@@ -1,0 +1,300 @@
+.pics{
+    display: flex;
+   justify-content: space-evenly;
+   padding: 10px 20px;
+   /* font-family: Arial,  sans-serif; */
+   font-weight: bold;
+   color: white;
+   text-align: center;
+   margin: 20px;
+   font-size: 14px;
+   /* transform: rotate(-5deg); */
+ 
+  
+  
+}
+
+.dairy {
+    background-color: #4b5e48;
+    clip-path: polygon(10% 0%, 90% 5%, 95% 90%, 15% 100%, 0% 85%);
+width: 100px;
+height: 100px;
+margin-right: 60px;
+
+}
+.dairy:hover{
+    transform: scale(1.5);
+}
+
+.free {
+    background-color: #accbdf;
+    clip-path: polygon(20% 5%, 80% 0%, 100% 70%, 20% 95%, 0% 50%);
+    width: 100px;
+height: 100px;
+margin-right: 60px;
+}
+.free:hover{
+    transform: scale(1.5);
+}
+.high {
+    background-color: #b9a189;
+    clip-path: polygon(15% 0%, 90% 15%, 85% 85%, 10% 95%, 0% 50%);
+    width: 100px;
+    height: 100px;
+    margin-right: 60px;
+    }
+    .high:hover{
+        transform: scale(1.5);
+    }
+
+.nut {
+    background-color: #d65333;
+    clip-path: polygon(5% 10%, 95% 10%, 85% 90%, 10% 80%, 0% 60%);
+    width: 100px;
+    height: 100px;
+    margin-right: 60px;
+}
+.nut:hover{
+    transform: scale(1.5);
+}
+.seafood {
+    background-color: #4b5e48;
+    clip-path: polygon(15% 5%, 85% 0%, 100% 80%, 20% 90%, 5% 65%);
+    width: 100px;
+    height: 100px;
+    margin-right: 60px;
+}
+.seafood:hover{
+    transform: scale(1.5);
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+    /* transform: rotate(-5deg); */
+    margin-top: 40px;
+}
+
+.chicken {
+    background-color:green;
+    clip-path: polygon(10% 0%, 90% 10%, 85% 85%, 5% 90%, 0% 60%);
+    width: 100px;
+height: 100px;
+margin-right: 60px;
+}
+.chicken:hover{
+    transform: scale(1.5);
+}
+
+.beef {
+    background-color: darkcyan;
+    clip-path: polygon(20% 0%, 80% 5%, 95% 85%, 15% 90%, 0% 50%);
+    width: 100px;
+    height: 100px;
+    margin-right: 60px;
+}
+.beef:hover{
+    transform: scale(1.5);
+}
+
+
+.plant{
+    background-color: brown;
+    clip-path: polygon(15% 5%, 85% 0%, 90% 85%, 10% 90%, 5% 50%);
+    width: 100px;
+    height: 100px;
+    margin-right: 60px;
+}
+.plant:hover{
+    transform: scale(1.5);
+}
+
+.spicy {
+    background-color:blue;
+    /* color: black;   */
+    clip-path: polygon(5% 10%, 90% 5%, 85% 90%, 10% 85%, 0% 50%);
+    width: 100px;
+    height: 100px;
+    margin-right: 60px;  
+}
+.spicy:hover{
+    transform: scale(1.5);
+}
+.pork {
+    background-color: #d65333; 
+ clip-path: polygon(10% 5%,80% 0%,90% 80%,5% 85%,0% 60%);
+ width: 100px;
+ height: 100px;
+ margin-right: 60px; 
+}
+.pork:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+.sen{
+   
+    margin-left: 60px;
+    text-align: center;
+font-size: 100px;
+    font-weight: lighter;  
+}
+.graph{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.pera{
+    font-style: italic;
+    font-size: 60px;
+    margin-top: 60px;
+    margin-left: 30px;
+} 
+.line{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.meals img{
+    
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 10vw;
+    height: 20vh;
+}
+.meals{
+    display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+   margin-left: 20px;
+}
+.veg img{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 10vw;
+    height: 20vh;
+    
+   
+}
+.veg{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+   
+
+.vegan img{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 10vw;
+    height: 20vh;
+    
+}
+.vegan{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.vegg img{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 10vw;
+    height: 20vh;
+    
+}
+.vegg{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.ssd img{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 10vw;
+    height: 20vh;  
+}
+.ssd{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.shadow img{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 10vw;
+    height: 20vh;
+}
+.shadow {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;  
+    width: 100vw; 
+    margin-top: 40px;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #d65333;
+    background-color: transparent;
+   border-radius: 5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 20px;
+    width: 20%;
+    height: 70px;
+    box-shadow: 0 0 10px;
+
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px burlywood, 0 0 30px sienna , 0 0 60px bisque;
+}
+.food{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.seq{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.keto{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.paleo{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.ff{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+}

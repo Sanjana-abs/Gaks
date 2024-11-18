@@ -1,0 +1,107 @@
+/* .login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-buttons button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-google {
+    background-color: #ed584b;
+    color: white;
+}
+
+.btn-google img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.btn-facebook {
+    background-color: #6289dd;
+    color: white;
+}
+
+.btn-facebook img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.btn-twitter {
+    background-color: #4baeeb;
+    color: white;
+}
+
+.btn-twitter img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.signup-option {
+    text-align: center;
+    margin-top: 20px;
+}
+.signup-option a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-option a:hover {
+    text-decoration: underline;
+} */

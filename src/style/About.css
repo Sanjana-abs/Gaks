@@ -1,0 +1,253 @@
+.dot {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    background-image: url('/src/images/fruit.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+   position: relative; 
+}
+
+.content {
+    background-color: rgba(216, 240, 255, 0.8); /* Semi-transparent overlay */
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%; /* Vertically center */
+    left: 20%; /* Horizontally center */
+    transform: translate(-50%, -50%); 
+    /* height: 700px;
+    text-align: center; */
+
+}
+
+.content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.service {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.service h1 {
+    /* font-size: 2rem;
+    margin-bottom: 40px;
+    color: #333; Dark text for contrast */
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.benefits {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the cards */
+    flex-wrap: wrap; /* Adjust layout for smaller screens */
+}
+
+/* Individual Benefit Card Styles */
+.benefit-card {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 20%; /* Rounded edges for the irregular shape */
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+.benefit-card:hover{
+    transform: scale(1.3);
+}
+/* Color Variants for Each Card */
+.green {
+    background-color: #3e573f; /* Dark green */
+}
+
+.blue {
+    background-color: #cde6f7; /* Light blue */
+    color: #333; /* Dark text for contrast */
+}
+
+.beige {
+    background-color: #d2c3b3; /* Beige */
+    color: #333; /* Dark text for contrast */
+}
+
+.orange {
+    background-color: #d4541a; /* Burnt orange */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .benefits {
+        gap: 20px;
+    }
+
+    .benefit-card {
+        width: 120px;
+        height: 120px;
+        font-size: 0.8rem;
+    }
+}
+.review {
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 10px;
+}
+
+.review {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Space between the cards */
+    flex-wrap: wrap; /* Adjust layout for smaller screens */
+}
+
+/* Individual Review Card Styles */
+.review-card {
+    background-color: #4a6b50; /* Slightly lighter green for the cards */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.review-card .stars {
+    margin-bottom: 15px;
+    font-size: 1.2rem; /* Larger size for emojis */
+}
+
+.review-card h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.review-card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .reviews-container {
+        gap: 20px;
+    }
+
+    .review-card {
+        width: 90%; /* Full width for smaller screens */
+    }
+}
+.kitchen{
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #000; /* Black text */
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #555; /* Gray text */
+    margin-bottom: 20px;
+    letter-spacing: 1px; /* Add spacing between letters */
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d3ecff; /* Light blue button */
+    color: #000; /* Black text */
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #b5dcff; /* Slightly darker blue on hover */
+  }
+  .ppc{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+
+.card-image {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 18px;
+  }
+  
+  .card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 2px solid black;
+  }
+  
+  .card-date {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+    flex-grow: 1; /* Pushes footer to bottom */
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #999;
+  }
